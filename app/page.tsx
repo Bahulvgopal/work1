@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import InvitationOpening from "@/components/InvitationOpening";
-import FloatingFlowers from "@/components/FloatingFlowers";
+// import FloatingFlowers from "@/components/FloatingFlowers";
 import Countdown from "@/components/Countdown";
 import EventSchedule from "@/components/EventSchedule";
 import WeddingTimeline from "@/components/WeddingTimeline";
@@ -27,7 +27,7 @@ export default function Home() {
         }
       />
 
-      <FloatingFlowers />
+      {/* <FloatingFlowers /> */}
 
         <Navbar />
 

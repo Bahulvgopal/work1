@@ -254,7 +254,7 @@ export default function WeddingTimeline() {
         }
       `}</style>
 
-      <FloatingPetals />
+      {/* <FloatingPetals /> */}
 
       {/* Ambient glow */}
       <div style={{

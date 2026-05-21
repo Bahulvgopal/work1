@@ -7,10 +7,10 @@ import { motion, AnimatePresence } from "framer-motion";
 const links = [
   { name: "Countdown", href: "#countdown" },
   { name: "Events",    href: "#events"    },
-  { name: "Timeline",  href: "#timeline"  },
+  // { name: "Timeline",  href: "#timeline"  },
   { name: "Gallery",   href: "#gallery"   },
   { name: "Venue",     href: "#venue"     },
-  { name: "Contact",   href: "#contact"   },
+  // { name: "Contact",   href: "#contact"   },
 ];
 
 function NavPetal({ size = 10, rotate = 0 }: { size?: number; rotate?: number }) {

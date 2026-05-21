@@ -100,10 +100,10 @@ const events = [
   },
   {
     number: "02",
-    title: "Reception & Celebrations",
+    title: "Food & Dinning",
     subtitle: "Post-Wedding",
     date: "02 July 2026",
-    time: "Evening Onwards",
+    time: "After Muhurtham Onwards",
     venue: "Alsaj International Convention Centre",
     hall: "Gravity Hall, Kazhakottam",
     icon: (

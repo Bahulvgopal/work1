@@ -256,7 +256,7 @@ export default function Gallery() {
         .gold-line { background: linear-gradient(90deg, transparent, #c9a227, transparent); height: 1px; }
       `}</style>
 
-      <FloatingPetals />
+      {/* <FloatingPetals /> */}
 
       {/* Ambient glow */}
       <div style={{
