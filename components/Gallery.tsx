@@ -340,7 +340,7 @@ export default function Gallery() {
           <PhotoFrame
             src="/images/ms1.jpg"
             alt="Wedding memory 1"
-            caption="02 · July · 2026"
+            caption=""
             label="The Beginning"
             aspectClass="aspect-3-4"
             animDelay={0}
@@ -351,7 +351,7 @@ export default function Gallery() {
             <PhotoFrame
               src="/images/ms2.jpg"
               alt="Wedding memory 2"
-              caption="Kazhakottam · Kerala"
+              caption=""
               label="Forever Starts Here"
               aspectClass="aspect-4-5"
               animDelay={0.18}
