@@ -112,22 +112,7 @@ const events = [
       </svg>
     ),
   },
-  {
-    number: "03",
-    title: "Dinner Reception",
-    subtitle: "Grand Feast",
-    date: "02 July 2026",
-    time: "Evening Onwards",
-    venue: "Alsaj International Convention Centre",
-    hall: "Gravity Hall, Kazhakottam",
-    icon: (
-      <svg viewBox="0 0 36 36" fill="none" width="20" height="20">
-        <circle cx="18" cy="18" r="10" stroke="#c9a227" strokeWidth="1.5" fill="none" opacity="0.7"/>
-        <circle cx="18" cy="18" r="5" fill="#c9a227" opacity="0.85"/>
-        <path d="M18 4V8M18 28V32M4 18H8M28 18H32" stroke="#c9a227" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
-      </svg>
-    ),
-  },
+  
 ];
 
 // ── Gold divider ──────────────────────────────────────────────────────────────
