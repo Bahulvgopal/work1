@@ -1,26 +1,148 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fdfbf7;
+  --foreground: #2b2b2b;
+
+  --gold: #c9a227;
+  --gold-light: #e9d8a6;
+  --cream: #fffdf9;
+  --soft-white: #faf7f2;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top, rgba(201,162,39,0.06), transparent 30%),
+    linear-gradient(to bottom, #fffdf9, #fdfbf7);
+
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-heading);
+}
+
+section {
+  padding: 100px 20px;
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.gold-border {
+  border: 1px solid rgba(201, 162, 39, 0.3);
+}
+
+.gold-glow {
+  box-shadow: 0 0 30px rgba(201, 162, 39, 0.15);
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(201,162,39,0.18);
+  border-radius: 30px;
+}
+
+.elegant-button {
+  background: linear-gradient(
+    135deg,
+    #c9a227,
+    #f0dd9a
+  );
+
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.elegant-button:hover {
+  transform: translateY(-3px);
+}
+
+.flower-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.fade-up {
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+section {
+  scroll-margin-top: 120px;
+}
+
+img {
+  user-select: none;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(201,162,39,0.08),
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(201,162,39,0.08),
+      transparent 20%
+    );
+  z-index: -1;
 }
