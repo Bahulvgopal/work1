@@ -38,6 +38,10 @@ export default function Home() {
         {/* COUNTDOWN */}
         <Countdown />
 
+
+        <ContactSection />
+
+        
         {/* EventSchedule */}
         <EventSchedule />
 
@@ -51,7 +55,7 @@ export default function Home() {
         <MapSection />
 
 
-        <ContactSection />
+        
 
 
         <MusicPlayer />
