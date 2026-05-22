@@ -27,7 +27,7 @@ export default function Footer() {
       }}>
         © {new Date().getFullYear()} Crafted with love by{" "}
         <a
-          href="https://amoraweds.com"
+          href="https://amora-weds.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           style={{
