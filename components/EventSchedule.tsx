@@ -103,7 +103,7 @@ const events = [
     title: "Food & Dinning",
     subtitle: "Post-Wedding",
     date: "02 July 2026",
-    time: "10 AM Onwards",
+    time: "After 12 Noon",
     venue: "Alsaj International Convention Centre",
     hall: "Gravity Hall, Kazhakottam",
     icon: (
