@@ -100,7 +100,7 @@ const events = [
   },
   {
     number: "02",
-    title: "Food & Dinning",
+    title: "Food & Dining",
     subtitle: "Post-Wedding",
     date: "02 July 2026",
     time: "After 12 Noon",
